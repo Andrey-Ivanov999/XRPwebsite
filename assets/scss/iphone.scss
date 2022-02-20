@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .word {
+        display: none!important;
+    }
+    .iphone-input {
+        display: block!important;
+        -webkit-appearance: none;
+        -webkit-user-select: auto;
+    }
+}
