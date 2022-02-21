@@ -35,7 +35,7 @@
         .navigate-wrap {
             justify-content: center;
             .link-connect {
-                margin-left: 1.5rem;
+          display: none;
             }
             .open-nav {
                 position: fixed;
@@ -107,6 +107,7 @@
             .connect {
                 display: none;
             }
+
         }
 
         &.open .container {
@@ -172,12 +173,6 @@
 @media screen and (max-width: 475px) {
     .header .navigate-wrap {
         flex-direction: column;
-        .open-nav {
-            top: 4.3rem;
-        }
-        .link-connect {
-            margin-top: 1rem;
-        }
     }
         .main .row.second-row .example-text {
     padding: 0.6rem;
